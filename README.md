@@ -1,2 +1,2 @@
-# waiting-for-name
+# event finder
 Exported from Caffeine project: Waiting for name...
