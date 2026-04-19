@@ -1,2 +1,1 @@
-export { Category } from "./backend";
-export type { Event } from "./backend";
+// Deprecated: all types are now inlined in App.tsx
