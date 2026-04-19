@@ -1,0 +1,21 @@
+{
+  "overview": "An Event Finder app that lets users discover events and filter them by category (Music, Tech, Food) using multi-select filter pills. Sample events are stored in the backend for instant browsing.",
+  "features": [
+    "Browse all events in a responsive card grid",
+    "Filter by Music, Tech, and Food categories",
+    "Multi-select category filtering",
+    "Category badges on event cards",
+    "Event detail view with full information",
+    "URL-persisted filter state",
+    "Sample events pre-loaded in the backend"
+  ],
+  "category": "productivity",
+  "tags": [
+    "events",
+    "finder",
+    "filtering",
+    "categories",
+    "discovery"
+  ],
+  "last_updated": "2026-04-19T12:52:43.402Z"
+}

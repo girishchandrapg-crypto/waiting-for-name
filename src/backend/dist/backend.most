@@ -1,0 +1,21 @@
+// Version: 1.0.0
+type Category__261129912 = {#Food; #Music; #Tech};
+type Event__543096582 =
+  {
+    category : Category__261129912;
+    date : Text;
+    description : Text;
+    id : Nat;
+    location : Text;
+    name : Text
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable events :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Event__543096582]];
+      var elementIndex : Nat__490723111
+    }
+};

@@ -1,0 +1,19 @@
+type Event = 
+ record {
+   category: Category;
+   date: text;
+   description: text;
+   id: nat;
+   location: text;
+   name: text;
+ };
+type Category = 
+ variant {
+   Food;
+   Music;
+   Tech;
+ };
+service : {
+  filterByCategory: (categories: vec Category) -> (vec Event) query;
+  listEvents: () -> (vec Event) query;
+}
